@@ -1,0 +1,32 @@
+{
+  "dataset_name": "AI4Bharat IndicVoices Multilingual Hackathon Curated Subset",
+  "total_disk_gb": 0.0503,
+  "disk_limit_gb": 5.0,
+  "is_under_limit": true,
+  "total_samples": 180,
+  "train_samples": 140,
+  "val_samples": 20,
+  "test_samples": 20,
+  "total_audio_hours": 0.469,
+  "target_languages": [
+    "hi",
+    "ta",
+    "te"
+  ],
+  "samples_per_language": {
+    "hi": 60,
+    "ta": 60,
+    "te": 60
+  },
+  "hours_per_language": {
+    "hi": 0.156,
+    "ta": 0.156,
+    "te": 0.156
+  },
+  "duration_min_seconds": 3.66,
+  "duration_max_seconds": 14.88,
+  "duration_mean_seconds": 9.37,
+  "sample_rate_hz": 16000,
+  "channels": 1,
+  "speaker_disjoint_split": true
+}

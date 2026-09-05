@@ -1,0 +1,58 @@
+{
+  "first_step_cer_improved": null,
+  "lowest_val_cer": 1.0,
+  "lowest_val_wer": 1.0,
+  "best_checkpoint": "checkpoints/exp_b_1gb\\best_model.pt",
+  "curve": [
+    {
+      "epoch": 1,
+      "step": 147,
+      "train_loss": 5.8149,
+      "val_loss": 4.9693,
+      "val_CER": 1.0,
+      "val_WER": 1.0,
+      "learning_rate": 4.564221286261709e-05,
+      "blank_percentage": 100.0
+    },
+    {
+      "epoch": 2,
+      "step": 294,
+      "train_loss": 4.8962,
+      "val_loss": 4.82,
+      "val_CER": 1.0,
+      "val_WER": 1.0,
+      "learning_rate": 3.3e-05,
+      "blank_percentage": 100.0
+    },
+    {
+      "epoch": 3,
+      "step": 441,
+      "train_loss": 4.8406,
+      "val_loss": 4.8734,
+      "val_CER": 1.0,
+      "val_WER": 1.0,
+      "learning_rate": 7.86788218175523e-05,
+      "blank_percentage": 100.0
+    },
+    {
+      "epoch": 4,
+      "step": 588,
+      "train_loss": 4.8137,
+      "val_loss": 4.8872,
+      "val_CER": 1.0,
+      "val_WER": 1.0,
+      "learning_rate": 8.2139380484327e-05,
+      "blank_percentage": 78.58
+    },
+    {
+      "epoch": 5,
+      "step": 735,
+      "train_loss": 4.6295,
+      "val_loss": 4.5805,
+      "val_CER": 1.0,
+      "val_WER": 1.0,
+      "learning_rate": 3.3e-05,
+      "blank_percentage": 92.13
+    }
+  ]
+}

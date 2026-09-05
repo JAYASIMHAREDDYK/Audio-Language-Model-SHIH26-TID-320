@@ -1,0 +1,123 @@
+{
+  "device": "cuda",
+  "device_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "vram_total_gb": 8.0,
+  "conformer_specifications": {
+    "num_encoder_blocks": 12,
+    "d_model": 512,
+    "d_ff": 2048,
+    "num_attention_heads": 8,
+    "conv_kernel_size": 31,
+    "temporal_subsampling": 4,
+    "mel_filterbanks": 80,
+    "target_sample_rate": 16000
+  },
+  "parameter_breakdown": {
+    "total_parameters": 79519943,
+    "trainable_parameters": 79519943,
+    "frontend_parameters": 6427648,
+    "encoder_parameters": 72726528,
+    "decoder_parameters": 364230,
+    "num_layers": 12,
+    "d_model": 512,
+    "num_heads": 8,
+    "d_ff": 2048,
+    "conv_kernel_size": 31
+  },
+  "vram_metrics": {
+    "peak_allocated_mb": 1262.63,
+    "peak_reserved_mb": 1342.0,
+    "vram_headroom_mb": 6924.87,
+    "vram_utilization_pct": 15.42
+  },
+  "inference_latency": {
+    "2.0s_audio": {
+      "audio_duration_seconds": 2.0,
+      "avg_latency_ms": 48.39,
+      "rtf": 0.0242,
+      "throughput_x_realtime": 41.33
+    },
+    "5.0s_audio": {
+      "audio_duration_seconds": 5.0,
+      "avg_latency_ms": 47.5,
+      "rtf": 0.0095,
+      "throughput_x_realtime": 105.26
+    },
+    "10.0s_audio": {
+      "audio_duration_seconds": 10.0,
+      "avg_latency_ms": 58.99,
+      "rtf": 0.0059,
+      "throughput_x_realtime": 169.51
+    }
+  },
+  "alm_adapter": {
+    "raw_conformer_dim": 512,
+    "alm_projected_dim": 256,
+    "adapter_latency_ms": 78.88
+  },
+  "tokenizer_metrics": {
+    "hi": {
+      "language_name": "Hindi",
+      "sample_length_chars": 53,
+      "num_tokens": 54,
+      "unk_count": 0,
+      "unk_rate_pct": 0.0,
+      "lang_token": "<lang:hi>",
+      "lang_token_id": 4
+    },
+    "te": {
+      "language_name": "Telugu",
+      "sample_length_chars": 47,
+      "num_tokens": 48,
+      "unk_count": 0,
+      "unk_rate_pct": 0.0,
+      "lang_token": "<lang:te>",
+      "lang_token_id": 5
+    },
+    "ta": {
+      "language_name": "Tamil",
+      "sample_length_chars": 44,
+      "num_tokens": 45,
+      "unk_count": 0,
+      "unk_rate_pct": 0.0,
+      "lang_token": "<lang:ta>",
+      "lang_token_id": 6
+    },
+    "bn": {
+      "language_name": "Bengali",
+      "sample_length_chars": 48,
+      "num_tokens": 49,
+      "unk_count": 0,
+      "unk_rate_pct": 0.0,
+      "lang_token": "<lang:bn>",
+      "lang_token_id": 7
+    },
+    "mr": {
+      "language_name": "Marathi",
+      "sample_length_chars": 48,
+      "num_tokens": 49,
+      "unk_count": 0,
+      "unk_rate_pct": 0.0,
+      "lang_token": "<lang:mr>",
+      "lang_token_id": 8
+    },
+    "kn": {
+      "language_name": "Kannada",
+      "sample_length_chars": 47,
+      "num_tokens": 48,
+      "unk_count": 0,
+      "unk_rate_pct": 0.0,
+      "lang_token": "<lang:kn>",
+      "lang_token_id": 9
+    },
+    "zh": {
+      "language_name": "Mandarin Chinese",
+      "sample_length_chars": 14,
+      "num_tokens": 15,
+      "unk_count": 0,
+      "unk_rate_pct": 0.0,
+      "lang_token": "<lang:zh>",
+      "lang_token_id": 10
+    }
+  }
+}

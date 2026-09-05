@@ -1,0 +1,52 @@
+[
+  {
+    "lr": 3e-05,
+    "initial_loss": 9.0151,
+    "final_loss": 2.8257,
+    "val_cer": 0.9163,
+    "val_wer": 0.9667,
+    "blank_percentage": 92.33,
+    "avg_grad_norm": 2.8095,
+    "sample_hypothesis": "আ া া রর ান ়"
+  },
+  {
+    "lr": 5e-05,
+    "initial_loss": 8.1712,
+    "final_loss": 1.6849,
+    "val_cer": 0.5298,
+    "val_wer": 0.8583,
+    "blank_percentage": 46.76,
+    "avg_grad_norm": 3.4923,
+    "sample_hypothesis": "এটির ্ার কে েলার কা ছিল বে াতের র য় ার "
+  },
+  {
+    "lr": 0.0001,
+    "initial_loss": 7.6642,
+    "final_loss": 0.665,
+    "val_cer": 0.2022,
+    "val_wer": 0.5833,
+    "blank_percentage": 20.98,
+    "avg_grad_norm": 2.3574,
+    "sample_hypothesis": "এটিকেন ম্গলবার কে েলার কথা ছল তবে আদাতের"
+  },
+  {
+    "lr": 0.0002,
+    "initial_loss": 7.4712,
+    "final_loss": 3.0279,
+    "val_cer": 0.937,
+    "val_wer": 1.0,
+    "blank_percentage": 95.2,
+    "avg_grad_norm": 4.0642,
+    "sample_hypothesis": "এপ পন্রর"
+  },
+  {
+    "lr": 0.0004,
+    "initial_loss": 6.3806,
+    "final_loss": 3.2371,
+    "val_cer": 0.901,
+    "val_wer": 1.0,
+    "blank_percentage": 90.89,
+    "avg_grad_norm": 4.9638,
+    "sample_hypothesis": "এ ন্রার ্র"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "audio_filepath": "datasets/samples/hindi_sample_01.wav",
+    "text": "पुलिस को जल्दी बुलाओ यहां आपातकाल है",
+    "language": "hi",
+    "duration": 3.2
+  },
+  {
+    "audio_filepath": "datasets/samples/hindi_sample_02.wav",
+    "text": "मुझे तुरंत चिकित्सा सहायता की आवश्यकता है",
+    "language": "hi",
+    "duration": 3.5
+  },
+  {
+    "audio_filepath": "datasets/samples/telugu_sample_01.wav",
+    "text": "దయచేసి మాకు సహాయం చేయండి ఇక్కడ అత్యవసర పరిస్థితి ఉంది",
+    "language": "te",
+    "duration": 4.1
+  },
+  {
+    "audio_filepath": "datasets/samples/telugu_sample_02.wav",
+    "text": "వెంటనే అంబులెన్స్ పంపండి ప్రమాదం జరిగింది",
+    "language": "te",
+    "duration": 3.7
+  },
+  {
+    "audio_filepath": "datasets/samples/tamil_sample_01.wav",
+    "text": "தயவுசெய்து எங்களுக்கு உதவுங்கள் இங்கே அவசரநிலை உள்ளது",
+    "language": "ta",
+    "duration": 3.8
+  },
+  {
+    "audio_filepath": "datasets/samples/tamil_sample_02.wav",
+    "text": "உடனடியாக காவல் துறைக்கு தகவல் தெரிவிக்கவும்",
+    "language": "ta",
+    "duration": 3.6
+  },
+  {
+    "audio_filepath": "datasets/samples/bengali_sample_01.wav",
+    "text": "দয়া করে আমাদের সাহায্য করুন এখানে জরুরী অবস্থা",
+    "language": "bn",
+    "duration": 3.5
+  },
+  {
+    "audio_filepath": "datasets/samples/bengali_sample_02.wav",
+    "text": "শীঘ্রই ফায়ার সার্ভিসকে কল করুন আগুন লেগেছে",
+    "language": "bn",
+    "duration": 3.9
+  },
+  {
+    "audio_filepath": "datasets/samples/urdu_sample_01.wav",
+    "text": "برائے مہربانی مدد کریں یہاں ایمرجنسی ہے",
+    "language": "ur",
+    "duration": 3.6
+  },
+  {
+    "audio_filepath": "datasets/samples/urdu_sample_02.wav",
+    "text": "فوری طور پر ایمبولینس بھیجیں زخمی شخص ہے",
+    "language": "ur",
+    "duration": 3.8
+  },
+  {
+    "audio_filepath": "datasets/samples/mandarin_sample_01.wav",
+    "text": "请帮帮我们这里有紧急情况快报警",
+    "language": "zh",
+    "duration": 4.0
+  },
+  {
+    "audio_filepath": "datasets/samples/mandarin_sample_02.wav",
+    "text": "这里需要救护车有人受重伤",
+    "language": "zh",
+    "duration": 3.4
+  },
+  {
+    "audio_filepath": "datasets/samples/english_sample_01.wav",
+    "text": "please send help immediately there is an emergency",
+    "language": "en",
+    "duration": 3.9
+  },
+  {
+    "audio_filepath": "datasets/samples/english_sample_02.wav",
+    "text": "we need immediate medical assistance at this location",
+    "language": "en",
+    "duration": 3.6
+  }
+]

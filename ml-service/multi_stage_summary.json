@@ -1,0 +1,1003 @@
+{
+  "system": {
+    "hardware": "NVIDIA GeForce RTX 4060 Laptop GPU (8.00 GB VRAM)",
+    "architecture": "Deep Conformer ASR (12 Layers, d_model=512, d_ff=2048, 8 heads, kernel=31, 80.24M params)",
+    "languages": [
+      "hi",
+      "te",
+      "ta",
+      "bn",
+      "mr",
+      "kn",
+      "zh"
+    ],
+    "framework": "PyTorch 2.14.0+cu126, Torchaudio, CUDA 12.6, FP16 AMP"
+  },
+  "dataset": {
+    "dataset_name": "Reproducible 7-Language Multilingual Conformer Speech Corpus",
+    "target_languages": [
+      "hi",
+      "te",
+      "ta",
+      "bn",
+      "mr",
+      "kn",
+      "zh"
+    ],
+    "total_disk_bytes": 4508010056,
+    "total_disk_gb": 4.198,
+    "hard_ceiling_gb": 5.0,
+    "is_under_hard_ceiling": true,
+    "total_utterances": 6132,
+    "total_train_utterances": 4922,
+    "total_val_utterances": 601,
+    "total_test_utterances": 609,
+    "total_audio_hours": 19.565,
+    "sample_rate_hz": 16000,
+    "channels": 1,
+    "speaker_disjoint_split_verified": true,
+    "language_breakdown": {
+      "bn": {
+        "name": "Bengali",
+        "script": "Bengali",
+        "utterances": 819,
+        "train_utterances": 663,
+        "val_utterances": 78,
+        "test_utterances": 78,
+        "unique_speakers": 411,
+        "train_speakers": 329,
+        "val_speakers": 41,
+        "test_speakers": 41,
+        "duration_hours": 2.797,
+        "disk_size_mb": 614.58,
+        "percentage_of_corpus": 13.36
+      },
+      "hi": {
+        "name": "Hindi",
+        "script": "Devanagari",
+        "utterances": 921,
+        "train_utterances": 734,
+        "val_utterances": 93,
+        "test_utterances": 94,
+        "unique_speakers": 760,
+        "train_speakers": 608,
+        "val_speakers": 76,
+        "test_speakers": 76,
+        "duration_hours": 2.794,
+        "disk_size_mb": 613.88,
+        "percentage_of_corpus": 15.02
+      },
+      "kn": {
+        "name": "Kannada",
+        "script": "Kannada",
+        "utterances": 822,
+        "train_utterances": 662,
+        "val_utterances": 85,
+        "test_utterances": 75,
+        "unique_speakers": 572,
+        "train_speakers": 458,
+        "val_speakers": 57,
+        "test_speakers": 57,
+        "duration_hours": 2.797,
+        "disk_size_mb": 614.65,
+        "percentage_of_corpus": 13.41
+      },
+      "mr": {
+        "name": "Marathi",
+        "script": "Devanagari",
+        "utterances": 830,
+        "train_utterances": 668,
+        "val_utterances": 84,
+        "test_utterances": 78,
+        "unique_speakers": 565,
+        "train_speakers": 453,
+        "val_speakers": 56,
+        "test_speakers": 56,
+        "duration_hours": 2.796,
+        "disk_size_mb": 614.5,
+        "percentage_of_corpus": 13.54
+      },
+      "ta": {
+        "name": "Tamil",
+        "script": "Tamil",
+        "utterances": 891,
+        "train_utterances": 705,
+        "val_utterances": 89,
+        "test_utterances": 97,
+        "unique_speakers": 650,
+        "train_speakers": 520,
+        "val_speakers": 65,
+        "test_speakers": 65,
+        "duration_hours": 2.794,
+        "disk_size_mb": 613.89,
+        "percentage_of_corpus": 14.53
+      },
+      "te": {
+        "name": "Telugu",
+        "script": "Telugu",
+        "utterances": 927,
+        "train_utterances": 751,
+        "val_utterances": 87,
+        "test_utterances": 89,
+        "unique_speakers": 701,
+        "train_speakers": 561,
+        "val_speakers": 70,
+        "test_speakers": 70,
+        "duration_hours": 2.792,
+        "disk_size_mb": 613.55,
+        "percentage_of_corpus": 15.12
+      },
+      "zh": {
+        "name": "Mandarin Chinese",
+        "script": "Simplified Hanzi",
+        "utterances": 922,
+        "train_utterances": 739,
+        "val_utterances": 85,
+        "test_utterances": 98,
+        "unique_speakers": 635,
+        "train_speakers": 509,
+        "val_speakers": 63,
+        "test_speakers": 63,
+        "duration_hours": 2.795,
+        "disk_size_mb": 614.12,
+        "percentage_of_corpus": 15.04
+      }
+    }
+  },
+  "benchmarks": {
+    "device": "cuda",
+    "device_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "vram_total_gb": 8.0,
+    "conformer_specifications": {
+      "num_encoder_blocks": 12,
+      "d_model": 512,
+      "d_ff": 2048,
+      "num_attention_heads": 8,
+      "conv_kernel_size": 31,
+      "temporal_subsampling": 4,
+      "mel_filterbanks": 80,
+      "target_sample_rate": 16000
+    },
+    "parameter_breakdown": {
+      "total_parameters": 79519943,
+      "trainable_parameters": 79519943,
+      "frontend_parameters": 6427648,
+      "encoder_parameters": 72726528,
+      "decoder_parameters": 364230,
+      "num_layers": 12,
+      "d_model": 512,
+      "num_heads": 8,
+      "d_ff": 2048,
+      "conv_kernel_size": 31
+    },
+    "vram_metrics": {
+      "peak_allocated_mb": 1262.63,
+      "peak_reserved_mb": 1342.0,
+      "vram_headroom_mb": 6924.87,
+      "vram_utilization_pct": 15.42
+    },
+    "inference_latency": {
+      "2.0s_audio": {
+        "audio_duration_seconds": 2.0,
+        "avg_latency_ms": 48.39,
+        "rtf": 0.0242,
+        "throughput_x_realtime": 41.33
+      },
+      "5.0s_audio": {
+        "audio_duration_seconds": 5.0,
+        "avg_latency_ms": 47.5,
+        "rtf": 0.0095,
+        "throughput_x_realtime": 105.26
+      },
+      "10.0s_audio": {
+        "audio_duration_seconds": 10.0,
+        "avg_latency_ms": 58.99,
+        "rtf": 0.0059,
+        "throughput_x_realtime": 169.51
+      }
+    },
+    "alm_adapter": {
+      "raw_conformer_dim": 512,
+      "alm_projected_dim": 256,
+      "adapter_latency_ms": 78.88
+    },
+    "tokenizer_metrics": {
+      "hi": {
+        "language_name": "Hindi",
+        "sample_length_chars": 53,
+        "num_tokens": 54,
+        "unk_count": 0,
+        "unk_rate_pct": 0.0,
+        "lang_token": "<lang:hi>",
+        "lang_token_id": 4
+      },
+      "te": {
+        "language_name": "Telugu",
+        "sample_length_chars": 47,
+        "num_tokens": 48,
+        "unk_count": 0,
+        "unk_rate_pct": 0.0,
+        "lang_token": "<lang:te>",
+        "lang_token_id": 5
+      },
+      "ta": {
+        "language_name": "Tamil",
+        "sample_length_chars": 44,
+        "num_tokens": 45,
+        "unk_count": 0,
+        "unk_rate_pct": 0.0,
+        "lang_token": "<lang:ta>",
+        "lang_token_id": 6
+      },
+      "bn": {
+        "language_name": "Bengali",
+        "sample_length_chars": 48,
+        "num_tokens": 49,
+        "unk_count": 0,
+        "unk_rate_pct": 0.0,
+        "lang_token": "<lang:bn>",
+        "lang_token_id": 7
+      },
+      "mr": {
+        "language_name": "Marathi",
+        "sample_length_chars": 48,
+        "num_tokens": 49,
+        "unk_count": 0,
+        "unk_rate_pct": 0.0,
+        "lang_token": "<lang:mr>",
+        "lang_token_id": 8
+      },
+      "kn": {
+        "language_name": "Kannada",
+        "sample_length_chars": 47,
+        "num_tokens": 48,
+        "unk_count": 0,
+        "unk_rate_pct": 0.0,
+        "lang_token": "<lang:kn>",
+        "lang_token_id": 9
+      },
+      "zh": {
+        "language_name": "Mandarin Chinese",
+        "sample_length_chars": 14,
+        "num_tokens": 15,
+        "unk_count": 0,
+        "unk_rate_pct": 0.0,
+        "lang_token": "<lang:zh>",
+        "lang_token_id": 10
+      }
+    }
+  },
+  "stages": {
+    "stage1_smoke_test": {
+      "architecture": "Deep Conformer ASR (12 Layers, d_model=512, 8 Heads, d_ff=2048, Conv31)",
+      "parameters": {
+        "total_parameters": 79519943,
+        "trainable_parameters": 79519943,
+        "frontend_parameters": 6427648,
+        "encoder_parameters": 72726528,
+        "decoder_parameters": 364230,
+        "num_layers": 12,
+        "d_model": 512,
+        "num_heads": 8,
+        "d_ff": 2048,
+        "conv_kernel_size": 31
+      },
+      "epochs": 5,
+      "effective_batch_size": 16,
+      "learning_rate": 0.0001,
+      "total_training_time_seconds": 72.06,
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 14.6186,
+          "learning_rate": 2e-05,
+          "epoch_duration_sec": 18.89,
+          "global_step": 1,
+          "val_loss": 13.5176,
+          "val_wer": 1.0,
+          "val_cer": 0.9977,
+          "val_per_lang": {
+            "bn": {
+              "wer": 1.0,
+              "cer": 0.9977,
+              "count": 16
+            }
+          }
+        },
+        {
+          "epoch": 2,
+          "train_loss": 13.6509,
+          "learning_rate": 3e-05,
+          "epoch_duration_sec": 3.12,
+          "global_step": 2,
+          "val_loss": 10.613,
+          "val_wer": 1.0,
+          "val_cer": 0.9993,
+          "val_per_lang": {
+            "bn": {
+              "wer": 1.0,
+              "cer": 0.9993,
+              "count": 16
+            }
+          }
+        },
+        {
+          "epoch": 3,
+          "train_loss": 10.9989,
+          "learning_rate": 4e-05,
+          "epoch_duration_sec": 2.56,
+          "global_step": 3,
+          "val_loss": 7.0653,
+          "val_wer": 1.0,
+          "val_cer": 1.0,
+          "val_per_lang": {
+            "bn": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 16
+            }
+          }
+        },
+        {
+          "epoch": 4,
+          "train_loss": 7.7031,
+          "learning_rate": 5e-05,
+          "epoch_duration_sec": 0.92,
+          "global_step": 4,
+          "val_loss": 6.5538,
+          "val_wer": 1.0,
+          "val_cer": 1.0,
+          "val_per_lang": {
+            "bn": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 16
+            }
+          }
+        },
+        {
+          "epoch": 5,
+          "train_loss": 6.3464,
+          "learning_rate": 6e-05,
+          "epoch_duration_sec": 1.86,
+          "global_step": 5,
+          "val_loss": 6.8762,
+          "val_wer": 1.0,
+          "val_cer": 1.0,
+          "val_per_lang": {
+            "bn": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 16
+            }
+          }
+        }
+      ],
+      "best_val_cer": 0.9977,
+      "test_results": null
+    },
+    "stage2_overfit_test": {
+      "architecture": "Deep Conformer ASR (12 Layers, d_model=512, 8 Heads, d_ff=2048, Conv31)",
+      "parameters": {
+        "total_parameters": 79519943,
+        "trainable_parameters": 79519943,
+        "frontend_parameters": 6427648,
+        "encoder_parameters": 72726528,
+        "decoder_parameters": 364230,
+        "num_layers": 12,
+        "d_model": 512,
+        "num_heads": 8,
+        "d_ff": 2048,
+        "conv_kernel_size": 31
+      },
+      "epochs": 5,
+      "effective_batch_size": 4,
+      "learning_rate": 0.0003,
+      "total_training_time_seconds": 175.5,
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 8.7552,
+          "learning_rate": 0.00023999999999999998,
+          "epoch_duration_sec": 20.29,
+          "global_step": 8,
+          "val_loss": 6.1348,
+          "val_wer": 1.0,
+          "val_cer": 1.0,
+          "val_per_lang": {
+            "bn": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 78
+            },
+            "hi": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 93
+            },
+            "kn": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 85
+            },
+            "mr": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 84
+            },
+            "ta": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 89
+            },
+            "te": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 87
+            },
+            "zh": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 85
+            }
+          }
+        },
+        {
+          "epoch": 2,
+          "train_loss": 4.3039,
+          "learning_rate": 0.0002799038105676658,
+          "epoch_duration_sec": 5.81,
+          "global_step": 16,
+          "val_loss": 6.4309,
+          "val_wer": 1.0,
+          "val_cer": 1.0,
+          "val_per_lang": {
+            "bn": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 78
+            },
+            "hi": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 93
+            },
+            "kn": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 85
+            },
+            "mr": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 84
+            },
+            "ta": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 89
+            },
+            "te": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 87
+            },
+            "zh": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 85
+            }
+          }
+        },
+        {
+          "epoch": 3,
+          "train_loss": 3.6356,
+          "learning_rate": 0.00018118675362266385,
+          "epoch_duration_sec": 2.04,
+          "global_step": 24,
+          "val_loss": 7.0809,
+          "val_wer": 1.0,
+          "val_cer": 1.0,
+          "val_per_lang": {
+            "bn": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 78
+            },
+            "hi": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 93
+            },
+            "kn": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 85
+            },
+            "mr": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 84
+            },
+            "ta": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 89
+            },
+            "te": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 87
+            },
+            "zh": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 85
+            }
+          }
+        },
+        {
+          "epoch": 4,
+          "train_loss": 3.4634,
+          "learning_rate": 6.183221215612904e-05,
+          "epoch_duration_sec": 3.16,
+          "global_step": 32,
+          "val_loss": 7.3225,
+          "val_wer": 1.0,
+          "val_cer": 1.0,
+          "val_per_lang": {
+            "bn": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 78
+            },
+            "hi": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 93
+            },
+            "kn": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 85
+            },
+            "mr": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 84
+            },
+            "ta": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 89
+            },
+            "te": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 87
+            },
+            "zh": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 85
+            }
+          }
+        },
+        {
+          "epoch": 5,
+          "train_loss": 3.3998,
+          "learning_rate": 1.4999999999999999e-05,
+          "epoch_duration_sec": 3.81,
+          "global_step": 40,
+          "val_loss": 7.3684,
+          "val_wer": 1.0,
+          "val_cer": 1.0,
+          "val_per_lang": {
+            "bn": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 78
+            },
+            "hi": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 93
+            },
+            "kn": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 85
+            },
+            "mr": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 84
+            },
+            "ta": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 89
+            },
+            "te": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 87
+            },
+            "zh": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 85
+            }
+          }
+        }
+      ],
+      "best_val_cer": 1.0,
+      "test_results": null
+    },
+    "stage3_exp_b_1gb": {
+      "architecture": "Deep Conformer ASR (12 Layers, d_model=512, 8 Heads, d_ff=2048, Conv31)",
+      "parameters": {
+        "total_parameters": 79519943,
+        "trainable_parameters": 79519943,
+        "frontend_parameters": 6427648,
+        "encoder_parameters": 72726528,
+        "decoder_parameters": 364230,
+        "num_layers": 12,
+        "d_model": 512,
+        "num_heads": 8,
+        "d_ff": 2048,
+        "conv_kernel_size": 31
+      },
+      "epochs": 3,
+      "effective_batch_size": 16,
+      "learning_rate": 0.0001,
+      "total_training_time_seconds": 480.67,
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 5.5785,
+          "learning_rate": 7.920655279849172e-05,
+          "epoch_duration_sec": 274.66,
+          "global_step": 73,
+          "val_loss": 4.6899,
+          "val_wer": 1.0,
+          "val_cer": 1.0,
+          "val_per_lang": {
+            "bn": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 78
+            },
+            "hi": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 93
+            },
+            "kn": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 85
+            },
+            "mr": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 84
+            },
+            "ta": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 89
+            },
+            "te": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 87
+            },
+            "zh": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 85
+            }
+          }
+        },
+        {
+          "epoch": 2,
+          "train_loss": 4.6414,
+          "learning_rate": 2.7200083771256818e-05,
+          "epoch_duration_sec": 73.37,
+          "global_step": 146,
+          "val_loss": 4.5683,
+          "val_wer": 1.0,
+          "val_cer": 1.0,
+          "val_per_lang": {
+            "bn": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 78
+            },
+            "hi": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 93
+            },
+            "kn": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 85
+            },
+            "mr": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 84
+            },
+            "ta": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 89
+            },
+            "te": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 87
+            },
+            "zh": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 85
+            }
+          }
+        },
+        {
+          "epoch": 3,
+          "train_loss": 4.5166,
+          "learning_rate": 5e-06,
+          "epoch_duration_sec": 69.2,
+          "global_step": 219,
+          "val_loss": 4.5531,
+          "val_wer": 1.0,
+          "val_cer": 1.0,
+          "val_per_lang": {
+            "bn": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 78
+            },
+            "hi": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 93
+            },
+            "kn": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 85
+            },
+            "mr": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 84
+            },
+            "ta": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 89
+            },
+            "te": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 87
+            },
+            "zh": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 85
+            }
+          }
+        }
+      ],
+      "best_val_cer": 1.0,
+      "test_results": {
+        "val_loss": 4.6426,
+        "macro_wer": 1.0,
+        "macro_cer": 1.0,
+        "total_samples": 609,
+        "per_language": {
+          "bn": {
+            "wer": 1.0,
+            "cer": 1.0,
+            "count": 78
+          },
+          "hi": {
+            "wer": 1.0,
+            "cer": 1.0,
+            "count": 94
+          },
+          "kn": {
+            "wer": 1.0,
+            "cer": 1.0,
+            "count": 75
+          },
+          "mr": {
+            "wer": 1.0,
+            "cer": 1.0,
+            "count": 78
+          },
+          "ta": {
+            "wer": 1.0,
+            "cer": 1.0,
+            "count": 97
+          },
+          "te": {
+            "wer": 1.0,
+            "cer": 1.0,
+            "count": 89
+          },
+          "zh": {
+            "wer": 1.0,
+            "cer": 1.0,
+            "count": 98
+          }
+        }
+      }
+    },
+    "stage4_exp_c_4gb": {
+      "architecture": "Deep Conformer ASR (12 Layers, d_model=512, 8 Heads, d_ff=2048, Conv31)",
+      "parameters": {
+        "total_parameters": 79519943,
+        "trainable_parameters": 79519943,
+        "frontend_parameters": 6427648,
+        "encoder_parameters": 72726528,
+        "decoder_parameters": 364230,
+        "num_layers": 12,
+        "d_model": 512,
+        "num_heads": 8,
+        "d_ff": 2048,
+        "conv_kernel_size": 31
+      },
+      "epochs": 2,
+      "effective_batch_size": 16,
+      "learning_rate": 0.0001,
+      "total_training_time_seconds": 1147.32,
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 4.7591,
+          "learning_rate": 2.4796935660635296e-05,
+          "epoch_duration_sec": 654.57,
+          "global_step": 308,
+          "val_loss": 4.4246,
+          "val_wer": 1.0,
+          "val_cer": 1.0,
+          "val_per_lang": {
+            "bn": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 78
+            },
+            "hi": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 93
+            },
+            "kn": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 85
+            },
+            "mr": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 84
+            },
+            "ta": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 89
+            },
+            "te": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 87
+            },
+            "zh": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 85
+            }
+          }
+        },
+        {
+          "epoch": 2,
+          "train_loss": 4.3355,
+          "learning_rate": 1.898310961820703e-05,
+          "epoch_duration_sec": 411.96,
+          "global_step": 616,
+          "val_loss": 4.133,
+          "val_wer": 1.0,
+          "val_cer": 1.0,
+          "val_per_lang": {
+            "bn": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 78
+            },
+            "hi": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 93
+            },
+            "kn": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 85
+            },
+            "mr": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 84
+            },
+            "ta": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 89
+            },
+            "te": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 87
+            },
+            "zh": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "count": 85
+            }
+          }
+        }
+      ],
+      "best_val_cer": 1.0,
+      "test_results": {
+        "val_loss": 4.3972,
+        "macro_wer": 1.0,
+        "macro_cer": 1.0,
+        "total_samples": 609,
+        "per_language": {
+          "bn": {
+            "wer": 1.0,
+            "cer": 1.0,
+            "count": 78
+          },
+          "hi": {
+            "wer": 1.0,
+            "cer": 1.0,
+            "count": 94
+          },
+          "kn": {
+            "wer": 1.0,
+            "cer": 1.0,
+            "count": 75
+          },
+          "mr": {
+            "wer": 1.0,
+            "cer": 1.0,
+            "count": 78
+          },
+          "ta": {
+            "wer": 1.0,
+            "cer": 1.0,
+            "count": 97
+          },
+          "te": {
+            "wer": 1.0,
+            "cer": 1.0,
+            "count": 89
+          },
+          "zh": {
+            "wer": 1.0,
+            "cer": 1.0,
+            "count": 98
+          }
+        }
+      }
+    }
+  }
+}

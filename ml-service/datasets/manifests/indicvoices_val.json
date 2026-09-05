@@ -1,0 +1,182 @@
+[
+  {
+    "id": "hi_dev_11206833549725473331",
+    "audio_filepath": "U:\\Hackathons\\ALM-NHCE\\ml-service\\datasets\\indicvoices\\wav\\hi_dev_11206833549725473331.wav",
+    "text": "सैद्धांतिक रूप से तिब्बती बौद्ध धर्म बहुत सरल है इसमें कुंडलिनी योग ध्यान और सभी को प्रेम से गले लगाने वाला मार्ग शामिल है",
+    "language": "hi",
+    "duration": 8.64,
+    "speaker_id": "hi_spk_138240",
+    "sample_rate": 16000
+  },
+  {
+    "id": "hi_dev_11416316648423711293",
+    "audio_filepath": "U:\\Hackathons\\ALM-NHCE\\ml-service\\datasets\\indicvoices\\wav\\hi_dev_11416316648423711293.wav",
+    "text": "ज़्यादातर जिलों में छोटी जापानी कोस्टर बसें चलती हैं जो आरामदायक और मज़बूत होती हैं",
+    "language": "hi",
+    "duration": 5.94,
+    "speaker_id": "hi_spk_95040",
+    "sample_rate": 16000
+  },
+  {
+    "id": "hi_dev_13048108448713953932",
+    "audio_filepath": "U:\\Hackathons\\ALM-NHCE\\ml-service\\datasets\\indicvoices\\wav\\hi_dev_13048108448713953932.wav",
+    "text": "प्रकृतिवादियों और दार्शनिकों ने शास्त्रीय ग्रंथों पर और विशेष रूप से लैटिन में लिखे बाइबिल पर ध्यान दिया",
+    "language": "hi",
+    "duration": 11.4,
+    "speaker_id": "hi_spk_182400",
+    "sample_rate": 16000
+  },
+  {
+    "id": "hi_dev_13191264841575352445",
+    "audio_filepath": "U:\\Hackathons\\ALM-NHCE\\ml-service\\datasets\\indicvoices\\wav\\hi_dev_13191264841575352445.wav",
+    "text": "बाबा श्याम को छप्पन भोग हिंदू धर्म में 56 अलग-अलग खाद्य पदार्थ जैसे मिठाई फल मेवा व्यंजन आदि जो देवता को चढ़ाए जाते हैं की 108 थाली परोसी गईं",
+    "language": "hi",
+    "duration": 14.64,
+    "speaker_id": "hi_spk_234240",
+    "sample_rate": 16000
+  },
+  {
+    "id": "hi_dev_2790069619537345490",
+    "audio_filepath": "U:\\Hackathons\\ALM-NHCE\\ml-service\\datasets\\indicvoices\\wav\\hi_dev_2790069619537345490.wav",
+    "text": "इतालवी भाषा में उच्चारण करना तुलनात्मक रूप से आसान है क्योंकि ज़्यादातर शब्दों का उच्चारण वैसे ही किया जाता है जैसे उन्हें लिखा जाता है",
+    "language": "hi",
+    "duration": 8.34,
+    "speaker_id": "hi_spk_133440",
+    "sample_rate": 16000
+  },
+  {
+    "id": "ta_dev_11455355694135623696",
+    "audio_filepath": "U:\\Hackathons\\ALM-NHCE\\ml-service\\datasets\\indicvoices\\wav\\ta_dev_11455355694135623696.wav",
+    "text": "பொருட்களை வேகமாக வழங்குவதற்கு கூரியர் நிறுவங்கள் நல்ல வருமானங்களை பெறுகின்றன அடிகடி வணிக ஆவணங்கள் பொருட்கள் அல்லது அவசர பழுதுபார்க்க உதிரி பாகங்களுடன் நேரம் மிகவும் முக்கியமானது",
+    "language": "ta",
+    "duration": 14.16,
+    "speaker_id": "ta_spk_226560",
+    "sample_rate": 16000
+  },
+  {
+    "id": "ta_dev_11601475153256065489",
+    "audio_filepath": "U:\\Hackathons\\ALM-NHCE\\ml-service\\datasets\\indicvoices\\wav\\ta_dev_11601475153256065489.wav",
+    "text": "அதற்கு மாநிலங்களுக்கு இடையே ஆன வரி மற்றும் சுங்க வரியை கட்டுப்படுத்தும் அதிகாரம் கூட இருக்கவில்லை",
+    "language": "ta",
+    "duration": 10.26,
+    "speaker_id": "ta_spk_164160",
+    "sample_rate": 16000
+  },
+  {
+    "id": "ta_dev_9982887249846052469",
+    "audio_filepath": "U:\\Hackathons\\ALM-NHCE\\ml-service\\datasets\\indicvoices\\wav\\ta_dev_9982887249846052469.wav",
+    "text": "பிலிப்பைன்சைக் கைப்பற்றிய அமெரிக்க ஏகாதிபத்தியத்தின் போர்ச்செலவுகளை பிலிப்பினோ மக்களே செலுத்தினார்கள்",
+    "language": "ta",
+    "duration": 10.26,
+    "speaker_id": "ta_spk_164160",
+    "sample_rate": 16000
+  },
+  {
+    "id": "ta_dev_11744527055215138604",
+    "audio_filepath": "U:\\Hackathons\\ALM-NHCE\\ml-service\\datasets\\indicvoices\\wav\\ta_dev_11744527055215138604.wav",
+    "text": "ஒரு குழம்பு திரவத்தின் அளவைப் பொறுத்து உலர்ந்த\" அல்லது \"ஈரமானதாக\"  இருக்கலாம்.",
+    "language": "ta",
+    "duration": 8.88,
+    "speaker_id": "ta_spk_142080",
+    "sample_rate": 16000
+  },
+  {
+    "id": "ta_dev_13376926505862167537",
+    "audio_filepath": "U:\\Hackathons\\ALM-NHCE\\ml-service\\datasets\\indicvoices\\wav\\ta_dev_13376926505862167537.wav",
+    "text": "இது நான்கு ஆண்டுகளில் மார்ட்டெல்லியின் ஐந்தாவது cep",
+    "language": "ta",
+    "duration": 6.0,
+    "speaker_id": "ta_spk_96000",
+    "sample_rate": 16000
+  },
+  {
+    "id": "ta_dev_379294024678694606",
+    "audio_filepath": "U:\\Hackathons\\ALM-NHCE\\ml-service\\datasets\\indicvoices\\wav\\ta_dev_379294024678694606.wav",
+    "text": "புஷ்ஷின் பிரதிநிதி பேச்சாளர் கார்டன் ஜான்ட்ரோ வட கொரியாவின் உறுதிமொழியை  கொரியத் தீவு அணு ஆயுத நீக்கம் பரிசீலனை செய்யப்படும் இலக்கை அடைவதற்கான முக்கிய நடவடிக்கை என அழைத்தார்.",
+    "language": "ta",
+    "duration": 11.88,
+    "speaker_id": "ta_spk_190080",
+    "sample_rate": 16000
+  },
+  {
+    "id": "te_dev_11155979857497975595",
+    "audio_filepath": "U:\\Hackathons\\ALM-NHCE\\ml-service\\datasets\\indicvoices\\wav\\te_dev_11155979857497975595.wav",
+    "text": "నైగాటా ప్రిఫెక్చర్ లోని కషివాజకి కరివా అణు విద్యుత్ కేంద్రం కూడా సాధారణంగా పనిచేస్తున్నట్లు ఎన్ హెచ్ కె తెలిపింది",
+    "language": "te",
+    "duration": 10.62,
+    "speaker_id": "te_spk_169920",
+    "sample_rate": 16000
+  },
+  {
+    "id": "te_dev_4858045044291332247",
+    "audio_filepath": "U:\\Hackathons\\ALM-NHCE\\ml-service\\datasets\\indicvoices\\wav\\te_dev_4858045044291332247.wav",
+    "text": "పోర్చుగల్ వాసులు దాన్ని నాశనం చేసి కాసా బ్రంకా అనే పేరుతో పునర్నిర్మించారు 1755 లో వచ్చిన భూకంపం తరువాత మాత్రమే దీనిని వదిలి వెళ్లారు",
+    "language": "te",
+    "duration": 10.62,
+    "speaker_id": "te_spk_169920",
+    "sample_rate": 16000
+  },
+  {
+    "id": "te_dev_12531578351964200862",
+    "audio_filepath": "U:\\Hackathons\\ALM-NHCE\\ml-service\\datasets\\indicvoices\\wav\\te_dev_12531578351964200862.wav",
+    "text": "మీరు కరెంట్ నుంచి బయటకు వచ్చిన వెంటనే తిరిగి ఈదడం అనేది సాధారణం కంటే కష్టం కాదు",
+    "language": "te",
+    "duration": 7.8,
+    "speaker_id": "te_spk_124800",
+    "sample_rate": 16000
+  },
+  {
+    "id": "te_dev_13095435438373566100",
+    "audio_filepath": "U:\\Hackathons\\ALM-NHCE\\ml-service\\datasets\\indicvoices\\wav\\te_dev_13095435438373566100.wav",
+    "text": "గత 4 సంవత్సరాలలో వరుసగా ఐదవ సారి martelly మెంబర్గా ఏర్పడిన cep",
+    "language": "te",
+    "duration": 7.8,
+    "speaker_id": "te_spk_124800",
+    "sample_rate": 16000
+  },
+  {
+    "id": "te_dev_4510655623795917917",
+    "audio_filepath": "U:\\Hackathons\\ALM-NHCE\\ml-service\\datasets\\indicvoices\\wav\\te_dev_4510655623795917917.wav",
+    "text": "ఇటాలియన్లో ఉచ్చారణ చాలా సులభం ఎందుకంటే చాలా పదాలు ఎలా రాయబడతాయో అలానే ఉచ్ఛరించబడతాయి",
+    "language": "te",
+    "duration": 7.8,
+    "speaker_id": "te_spk_124800",
+    "sample_rate": 16000
+  },
+  {
+    "id": "te_dev_8997804453249112628",
+    "audio_filepath": "U:\\Hackathons\\ALM-NHCE\\ml-service\\datasets\\indicvoices\\wav\\te_dev_8997804453249112628.wav",
+    "text": "మీరు కరెంట్ నుంచి బయటకు వచ్చిన వెంటనే తిరిగి ఈదడం అనేది సాధారణం కంటే కష్టం కాదు",
+    "language": "te",
+    "duration": 7.8,
+    "speaker_id": "te_spk_124800",
+    "sample_rate": 16000
+  },
+  {
+    "id": "te_dev_15255890129727160142",
+    "audio_filepath": "U:\\Hackathons\\ALM-NHCE\\ml-service\\datasets\\indicvoices\\wav\\te_dev_15255890129727160142.wav",
+    "text": "కారు డీకొట్టినప్పుడు ముగ్గురు వ్యక్తులు ఇంట్లో ఉన్నప్పటికీ ఎవ్వరూ గాయపడలేదు",
+    "language": "te",
+    "duration": 4.44,
+    "speaker_id": "te_spk_71040",
+    "sample_rate": 16000
+  },
+  {
+    "id": "te_dev_15768531293470193219",
+    "audio_filepath": "U:\\Hackathons\\ALM-NHCE\\ml-service\\datasets\\indicvoices\\wav\\te_dev_15768531293470193219.wav",
+    "text": "ఈ సిద్ధాంతాలు వ్యక్తులకు నిర్దిష్ట  అవసరాలు మరియు/లేదా కోరికలు ఉంటాయని సూచిస్తున్నాయి వారు యుక్తవయస్సుకి చేరుకునేటప్పటికి అంతర్గతంగా ఉంటాయి",
+    "language": "te",
+    "duration": 13.8,
+    "speaker_id": "te_spk_220800",
+    "sample_rate": 16000
+  },
+  {
+    "id": "te_dev_6555142319761875031",
+    "audio_filepath": "U:\\Hackathons\\ALM-NHCE\\ml-service\\datasets\\indicvoices\\wav\\te_dev_6555142319761875031.wav",
+    "text": "కీటకాలు గాలిలోకి తీసుకువెళ్ళే మొదటి జంతువులు వాటి ఎగిరే సామర్థ్యం శత్రువులను మరింత సులభంగా తప్పించుకోవడానికి ఆహారం మరియు సహచరులను మరింత సమర్థవంతంగా కనుగొనడంలో సహాయపడింది",
+    "language": "te",
+    "duration": 12.96,
+    "speaker_id": "te_spk_207360",
+    "sample_rate": 16000
+  }
+]

@@ -1,0 +1,481 @@
+{
+  "stage3_exp_b": {
+    "stage": "Stage 3: Experiment B (~1.0 GB Corpus)",
+    "elapsed_seconds": 823.13,
+    "result": {
+      "architecture": "Deep Conformer ASR (12 Layers, d_model=512, 8 Heads, d_ff=2048, Conv31)",
+      "parameters": {
+        "total_parameters": 80244299,
+        "trainable_parameters": 80244299,
+        "frontend_parameters": 6427648,
+        "encoder_parameters": 72726528,
+        "decoder_parameters": 1088586,
+        "num_layers": 12,
+        "d_model": 512,
+        "num_heads": 8,
+        "d_ff": 2048,
+        "conv_kernel_size": 31
+      },
+      "epochs": 5,
+      "effective_batch_size": 8,
+      "learning_rate": 0.0001,
+      "total_training_time_seconds": 778.49,
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 5.8149,
+          "learning_rate": 4.564221286261709e-05,
+          "epoch_duration_sec": 307.1,
+          "global_step": 147,
+          "val_loss": 4.9693,
+          "val_wer": 1.0,
+          "val_cer": 1.0,
+          "blank_percentage": 100.0,
+          "val_per_lang": {
+            "bn": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 100.0,
+              "non_blank_percentage": 0.0,
+              "unique_tokens": 0,
+              "avg_output_length": 0.0,
+              "count": 78
+            },
+            "hi": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 100.0,
+              "non_blank_percentage": 0.0,
+              "unique_tokens": 0,
+              "avg_output_length": 0.0,
+              "count": 93
+            },
+            "kn": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 100.0,
+              "non_blank_percentage": 0.0,
+              "unique_tokens": 0,
+              "avg_output_length": 0.0,
+              "count": 85
+            },
+            "mr": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 100.0,
+              "non_blank_percentage": 0.0,
+              "unique_tokens": 0,
+              "avg_output_length": 0.0,
+              "count": 84
+            },
+            "ta": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 100.0,
+              "non_blank_percentage": 0.0,
+              "unique_tokens": 0,
+              "avg_output_length": 0.0,
+              "count": 89
+            },
+            "te": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 100.0,
+              "non_blank_percentage": 0.0,
+              "unique_tokens": 0,
+              "avg_output_length": 0.0,
+              "count": 87
+            },
+            "zh": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 100.0,
+              "non_blank_percentage": 0.0,
+              "unique_tokens": 0,
+              "avg_output_length": 0.0,
+              "count": 85
+            }
+          }
+        },
+        {
+          "epoch": 2,
+          "train_loss": 4.8962,
+          "learning_rate": 3.3e-05,
+          "epoch_duration_sec": 114.24,
+          "global_step": 294,
+          "val_loss": 4.82,
+          "val_wer": 1.0,
+          "val_cer": 1.0,
+          "blank_percentage": 100.0,
+          "val_per_lang": {
+            "bn": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 100.0,
+              "non_blank_percentage": 0.0,
+              "unique_tokens": 0,
+              "avg_output_length": 0.0,
+              "count": 78
+            },
+            "hi": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 100.0,
+              "non_blank_percentage": 0.0,
+              "unique_tokens": 0,
+              "avg_output_length": 0.0,
+              "count": 93
+            },
+            "kn": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 100.0,
+              "non_blank_percentage": 0.0,
+              "unique_tokens": 0,
+              "avg_output_length": 0.0,
+              "count": 85
+            },
+            "mr": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 100.0,
+              "non_blank_percentage": 0.0,
+              "unique_tokens": 0,
+              "avg_output_length": 0.0,
+              "count": 84
+            },
+            "ta": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 100.0,
+              "non_blank_percentage": 0.0,
+              "unique_tokens": 0,
+              "avg_output_length": 0.0,
+              "count": 89
+            },
+            "te": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 100.0,
+              "non_blank_percentage": 0.0,
+              "unique_tokens": 0,
+              "avg_output_length": 0.0,
+              "count": 87
+            },
+            "zh": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 100.0,
+              "non_blank_percentage": 0.0,
+              "unique_tokens": 0,
+              "avg_output_length": 0.0,
+              "count": 85
+            }
+          }
+        },
+        {
+          "epoch": 3,
+          "train_loss": 4.8406,
+          "learning_rate": 7.86788218175523e-05,
+          "epoch_duration_sec": 79.34,
+          "global_step": 441,
+          "val_loss": 4.8734,
+          "val_wer": 1.0,
+          "val_cer": 1.0,
+          "blank_percentage": 100.0,
+          "val_per_lang": {
+            "bn": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 100.0,
+              "non_blank_percentage": 0.0,
+              "unique_tokens": 0,
+              "avg_output_length": 0.0,
+              "count": 78
+            },
+            "hi": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 100.0,
+              "non_blank_percentage": 0.0,
+              "unique_tokens": 0,
+              "avg_output_length": 0.0,
+              "count": 93
+            },
+            "kn": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 100.0,
+              "non_blank_percentage": 0.0,
+              "unique_tokens": 0,
+              "avg_output_length": 0.0,
+              "count": 85
+            },
+            "mr": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 100.0,
+              "non_blank_percentage": 0.0,
+              "unique_tokens": 0,
+              "avg_output_length": 0.0,
+              "count": 84
+            },
+            "ta": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 100.0,
+              "non_blank_percentage": 0.0,
+              "unique_tokens": 0,
+              "avg_output_length": 0.0,
+              "count": 89
+            },
+            "te": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 100.0,
+              "non_blank_percentage": 0.0,
+              "unique_tokens": 0,
+              "avg_output_length": 0.0,
+              "count": 87
+            },
+            "zh": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 100.0,
+              "non_blank_percentage": 0.0,
+              "unique_tokens": 0,
+              "avg_output_length": 0.0,
+              "count": 85
+            }
+          }
+        },
+        {
+          "epoch": 4,
+          "train_loss": 4.8137,
+          "learning_rate": 8.2139380484327e-05,
+          "epoch_duration_sec": 79.06,
+          "global_step": 588,
+          "val_loss": 4.8872,
+          "val_wer": 1.0,
+          "val_cer": 1.0,
+          "blank_percentage": 78.58,
+          "val_per_lang": {
+            "bn": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 67.53,
+              "non_blank_percentage": 32.47,
+              "unique_tokens": 1,
+              "avg_output_length": 1.92,
+              "count": 78
+            },
+            "hi": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 83.94,
+              "non_blank_percentage": 16.06,
+              "unique_tokens": 1,
+              "avg_output_length": 0.72,
+              "count": 93
+            },
+            "kn": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 96.52,
+              "non_blank_percentage": 3.48,
+              "unique_tokens": 1,
+              "avg_output_length": 0.33,
+              "count": 85
+            },
+            "mr": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 61.74,
+              "non_blank_percentage": 38.26,
+              "unique_tokens": 1,
+              "avg_output_length": 1.7,
+              "count": 84
+            },
+            "ta": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 94.85,
+              "non_blank_percentage": 5.15,
+              "unique_tokens": 1,
+              "avg_output_length": 0.36,
+              "count": 89
+            },
+            "te": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 88.23,
+              "non_blank_percentage": 11.77,
+              "unique_tokens": 1,
+              "avg_output_length": 0.53,
+              "count": 87
+            },
+            "zh": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 51.44,
+              "non_blank_percentage": 48.56,
+              "unique_tokens": 1,
+              "avg_output_length": 2.2,
+              "count": 85
+            }
+          }
+        },
+        {
+          "epoch": 5,
+          "train_loss": 4.6295,
+          "learning_rate": 3.3e-05,
+          "epoch_duration_sec": 75.69,
+          "global_step": 735,
+          "val_loss": 4.5805,
+          "val_wer": 1.0,
+          "val_cer": 1.0,
+          "blank_percentage": 92.13,
+          "val_per_lang": {
+            "bn": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 99.72,
+              "non_blank_percentage": 0.28,
+              "unique_tokens": 1,
+              "avg_output_length": 0.12,
+              "count": 78
+            },
+            "hi": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 100.0,
+              "non_blank_percentage": 0.0,
+              "unique_tokens": 0,
+              "avg_output_length": 0.0,
+              "count": 93
+            },
+            "kn": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 99.99,
+              "non_blank_percentage": 0.01,
+              "unique_tokens": 1,
+              "avg_output_length": 0.01,
+              "count": 85
+            },
+            "mr": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 100.0,
+              "non_blank_percentage": 0.0,
+              "unique_tokens": 0,
+              "avg_output_length": 0.0,
+              "count": 84
+            },
+            "ta": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 99.83,
+              "non_blank_percentage": 0.17,
+              "unique_tokens": 1,
+              "avg_output_length": 0.04,
+              "count": 89
+            },
+            "te": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 100.0,
+              "non_blank_percentage": 0.0,
+              "unique_tokens": 0,
+              "avg_output_length": 0.0,
+              "count": 87
+            },
+            "zh": {
+              "wer": 1.0,
+              "cer": 1.0,
+              "blank_percentage": 38.71,
+              "non_blank_percentage": 61.29,
+              "unique_tokens": 1,
+              "avg_output_length": 1.21,
+              "count": 85
+            }
+          }
+        }
+      ],
+      "best_val_cer": 1.0,
+      "test_results": {
+        "val_loss": 4.9705,
+        "macro_wer": 1.0,
+        "macro_cer": 1.0,
+        "blank_percentage": 100.0,
+        "non_blank_percentage": 0.0,
+        "total_samples": 609,
+        "per_language": {
+          "bn": {
+            "wer": 1.0,
+            "cer": 1.0,
+            "blank_percentage": 100.0,
+            "non_blank_percentage": 0.0,
+            "unique_tokens": 0,
+            "avg_output_length": 0.0,
+            "count": 78
+          },
+          "hi": {
+            "wer": 1.0,
+            "cer": 1.0,
+            "blank_percentage": 100.0,
+            "non_blank_percentage": 0.0,
+            "unique_tokens": 0,
+            "avg_output_length": 0.0,
+            "count": 94
+          },
+          "kn": {
+            "wer": 1.0,
+            "cer": 1.0,
+            "blank_percentage": 100.0,
+            "non_blank_percentage": 0.0,
+            "unique_tokens": 0,
+            "avg_output_length": 0.0,
+            "count": 75
+          },
+          "mr": {
+            "wer": 1.0,
+            "cer": 1.0,
+            "blank_percentage": 100.0,
+            "non_blank_percentage": 0.0,
+            "unique_tokens": 0,
+            "avg_output_length": 0.0,
+            "count": 78
+          },
+          "ta": {
+            "wer": 1.0,
+            "cer": 1.0,
+            "blank_percentage": 100.0,
+            "non_blank_percentage": 0.0,
+            "unique_tokens": 0,
+            "avg_output_length": 0.0,
+            "count": 97
+          },
+          "te": {
+            "wer": 1.0,
+            "cer": 1.0,
+            "blank_percentage": 100.0,
+            "non_blank_percentage": 0.0,
+            "unique_tokens": 0,
+            "avg_output_length": 0.0,
+            "count": 89
+          },
+          "zh": {
+            "wer": 1.0,
+            "cer": 1.0,
+            "blank_percentage": 100.0,
+            "non_blank_percentage": 0.0,
+            "unique_tokens": 0,
+            "avg_output_length": 0.0,
+            "count": 98
+          }
+        }
+      }
+    }
+  }
+}

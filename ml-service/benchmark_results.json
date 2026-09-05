@@ -1,0 +1,67 @@
+{
+  "timestamp": "2026-09-04 20:36:43",
+  "hardware": {
+    "device": "cuda",
+    "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "total_vram_gb": 8.0
+  },
+  "languages": ["hi", "te", "ta", "bn", "mr", "kn", "zh"],
+  "parameters": {
+    "total_parameters": 79519943,
+    "trainable_parameters": 79519943,
+    "frontend_parameters": 6427648,
+    "encoder_parameters": 72726528,
+    "decoder_parameters": 364230,
+    "num_layers": 12,
+    "d_model": 512,
+    "num_heads": 8,
+    "d_ff": 2048,
+    "conv_kernel_size": 31
+  },
+  "vram_profile": {
+    "peak_allocated_mb": 1262.63,
+    "peak_reserved_mb": 1342.0,
+    "vram_headroom_mb": 6924.87,
+    "vram_utilization_pct": 15.42
+  },
+  "rtf_latency": {
+    "2.0s_audio": {
+      "audio_duration_sec": 2.0,
+      "latency_sec": 0.0484,
+      "latency_ms": 48.39,
+      "rtf": 0.0242,
+      "realtime_capable": true,
+      "throughput_x_realtime": 41.3
+    },
+    "5.0s_audio": {
+      "audio_duration_sec": 5.0,
+      "latency_sec": 0.0475,
+      "latency_ms": 47.50,
+      "rtf": 0.0095,
+      "realtime_capable": true,
+      "throughput_x_realtime": 105.3
+    },
+    "10.0s_audio": {
+      "audio_duration_sec": 10.0,
+      "latency_sec": 0.0590,
+      "latency_ms": 58.99,
+      "rtf": 0.0059,
+      "realtime_capable": true,
+      "throughput_x_realtime": 169.5
+    }
+  },
+  "alm_adapter": {
+    "raw_conformer_dim": 512,
+    "alm_projected_dim": 256,
+    "adapter_latency_ms": 78.88
+  },
+  "tokenizer_unk_rates": {
+    "hi": 0.0,
+    "te": 0.0,
+    "ta": 0.0,
+    "bn": 0.0,
+    "mr": 0.0,
+    "kn": 0.0,
+    "zh": 0.0
+  }
+}

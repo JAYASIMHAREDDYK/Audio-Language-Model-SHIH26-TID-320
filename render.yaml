@@ -1,0 +1,37 @@
+services:
+  # ============================================================================
+  # 1. VOX ML Service (Python + FastAPI + PyTorch Conformer ALM)
+  # ============================================================================
+  - type: web
+    name: vox-ml-service
+    env: docker
+    dockerfilePath: ./ml-service/Dockerfile
+    dockerContext: ./ml-service
+    plan: free
+    region: oregon
+    healthCheckPath: /health
+    envVars:
+      - key: PORT
+        value: 8000
+      - key: OPENAI_API_KEY
+        sync: false
+
+  # ============================================================================
+  # 2. VOX Backend Application Server (Node.js + Express + WebSockets)
+  # ============================================================================
+  - type: web
+    name: vox-backend
+    env: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    plan: free
+    region: oregon
+    healthCheckPath: /health
+    envVars:
+      - key: PORT
+        value: 4000
+      - key: ML_SERVICE_URL
+        fromService:
+          type: web
+          name: vox-ml-service
+          property: host

@@ -1,0 +1,43 @@
+{
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "parameters": 80244299,
+  "results": {
+    "2s": {
+      "duration_sec": 2,
+      "avg_latency_ms": 22.0,
+      "rtf": 0.011,
+      "output_shape": [
+        1,
+        51,
+        512
+      ],
+      "peak_allocated_gb": 0.333,
+      "peak_reserved_gb": 0.348
+    },
+    "5s": {
+      "duration_sec": 5,
+      "avg_latency_ms": 21.7,
+      "rtf": 0.0043,
+      "output_shape": [
+        1,
+        126,
+        512
+      ],
+      "peak_allocated_gb": 0.346,
+      "peak_reserved_gb": 0.367
+    },
+    "10s": {
+      "duration_sec": 10,
+      "avg_latency_ms": 22.1,
+      "rtf": 0.0022,
+      "output_shape": [
+        1,
+        251,
+        512
+      ],
+      "peak_allocated_gb": 0.371,
+      "peak_reserved_gb": 0.432
+    }
+  }
+}

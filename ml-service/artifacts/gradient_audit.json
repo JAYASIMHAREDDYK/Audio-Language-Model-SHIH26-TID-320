@@ -1,0 +1,51 @@
+{
+  "status": "PASSED",
+  "loss_value": 218.2631,
+  "parameter_groups": {
+    "ConvSubsampling": {
+      "parameter_count": 6427648,
+      "average_grad_norm": 52.072834,
+      "max_grad_norm": 314.42807,
+      "has_none": false,
+      "has_nan": false,
+      "has_inf": false,
+      "healthy": true
+    },
+    "ConformerBlock_01": {
+      "parameter_count": 6060544,
+      "average_grad_norm": 11.635501,
+      "max_grad_norm": 58.89872,
+      "has_none": false,
+      "has_nan": false,
+      "has_inf": false,
+      "healthy": true
+    },
+    "ConformerBlock_06": {
+      "parameter_count": 6060544,
+      "average_grad_norm": 8.740231,
+      "max_grad_norm": 45.531971,
+      "has_none": false,
+      "has_nan": false,
+      "has_inf": false,
+      "healthy": true
+    },
+    "ConformerBlock_12": {
+      "parameter_count": 6060544,
+      "average_grad_norm": 10.097238,
+      "max_grad_norm": 55.051018,
+      "has_none": false,
+      "has_nan": false,
+      "has_inf": false,
+      "healthy": true
+    },
+    "CTC_LM_Head": {
+      "parameter_count": 1088586,
+      "average_grad_norm": 102.323915,
+      "max_grad_norm": 190.899582,
+      "has_none": false,
+      "has_nan": false,
+      "has_inf": false,
+      "healthy": true
+    }
+  }
+}
